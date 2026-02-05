@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+backend/venv/
+frontend/node_modules/
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+*.log
+server.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+lib-cov/
+
+# Temporary folders
+tmp/
+temp/
+
+# Production
+build/
+dist/
+out/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+.python-version
+
+# Backend
+backend/__pycache__/
+backend/src/__pycache__/
+backend/src/api/__pycache__/
+backend/src/auth/__pycache__/
+backend/src/database/__pycache__/
+backend/src/models/__pycache__/
+backend/src/services/__pycache__/
+
+# Frontend
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# System files
+.DS_Store
+Thumbs.db
